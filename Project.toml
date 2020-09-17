@@ -1,0 +1,13 @@
+name = "DocTests"
+uuid = "323e9361-d8f2-4d39-b758-50052deda4a4"
+authors = ["Morten Piibeleht", "Michael Hatherly", "DocTests.jl contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
